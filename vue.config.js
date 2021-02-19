@@ -18,7 +18,7 @@ module.exports = {
     host: getConfig.getIPaddress(),
     proxy: {
       '/api': {
-        target: 'http://183.63.131.115:4001',
+        target: '0.0.0.0',
         pathRewrite: { "^/api": "" }
       }
     }
